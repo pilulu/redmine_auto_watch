@@ -1,3 +1,5 @@
+$LOAD_PATH.unshift "#{File.dirname(__FILE__)}/lib"
+
 require 'redmine'
 
 require_dependency 'auto_watch_hook'
